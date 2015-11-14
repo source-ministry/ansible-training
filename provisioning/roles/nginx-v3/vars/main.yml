@@ -1,0 +1,7 @@
+---
+nginx_apt_packages:
+    - nginx
+
+nginx_user: www-data
+nginx_worker_processes: 2
+nginx_port: 8080

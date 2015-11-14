@@ -1,0 +1,8 @@
+---
+- hosts: all
+  sudo: true
+  tasks:
+    - debug:
+        msg="Hello 1 from {{ inventory_hostname }}!"
+    - debug:
+        msg="Hello 2 from {{ inventory_hostname }}!"

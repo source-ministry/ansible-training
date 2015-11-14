@@ -1,0 +1,3 @@
+---
+monit_apt_packages:
+  - monit

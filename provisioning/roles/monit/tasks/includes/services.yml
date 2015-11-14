@@ -1,0 +1,5 @@
+---
+- name: Ensure monit service is running
+  service:
+    name=monit
+    state=started
